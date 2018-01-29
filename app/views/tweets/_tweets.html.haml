@@ -1,0 +1,3 @@
+%ul.list-group
+  - @tweets.each do |tweet|
+    %li.list-group-item= link_to tweet.text, "https://twitter.com/i/web/status/#{tweet.id}", target: :_blank

@@ -1,8 +1,0 @@
-%h1 Where is twitts?
-
-= form_tag twitts_index_path, method: :get do
-  .form-row
-    .col-md-9
-      = text_field_tag :search, params[:search], class: 'form-control'
-    .col-auto
-      = submit_tag 'Search', name: nil, class: 'btn btn-primary'
